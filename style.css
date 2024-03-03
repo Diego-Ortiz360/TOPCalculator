@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: "Ubuntu mono";
+    src: url(/Fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf);
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    font-family: "Ubuntu Mono",'Courier New', Courier, monospace;
+    font-size: 48px;
+    user-select: none;
+  }
+
+  body
+  {
+    padding: none;
+    margin: none;
+
+    position: absolute;
+    
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .calculatorCase
+  {   
+    border: 3px solid rgb(0, 0, 0);
+    background-color:rgb(0, 0, 20);
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border: none;
+
+    height: 620px;
+    width: 420px;
+
+  }
+  .allScreensAndButtons
+  {
+    width: 400px;
+    height: 600px;
+    border: none;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .screensContainer
+  {
+    position:absolute;
+    width: 80%;
+    height: 20%;
+    padding-top: 20px;
+   }
+
+  .screen
+  {
+    background-color: rgb(114, 148, 114);
+    border: none;
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 50%;
+
+  }
+
+  #previusOperation
+  {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  #currentOperation
+  {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .clearAndDeleteContainer
+  {
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    top:28%;
+    display: flex;
+    justify-content: space-between;    
+  }
+
+  .numbersAndOperationsContainer
+  {
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    top: 40%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .specialbtns
+  {
+    width: 44%;
+    height: 100%;
+    background-color: rgb(123, 26, 26);
+    color: white;
+    font-weight: bold;   
+  }
+
+  .button
+  {
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .normalbtn
+  {
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
